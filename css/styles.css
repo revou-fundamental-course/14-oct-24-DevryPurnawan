@@ -1,0 +1,177 @@
+/* General Styling */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+  }
+  
+  header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+    background-color: white;
+  }
+  
+  .logo img {
+    width: 80px;
+    height: 80px;
+    border: 1px solid #333;
+    border-radius: 110px;
+  }
+  
+  nav ul {
+    padding: 10px;
+    list-style: none;
+    display: flex;
+    gap: 20px;
+    border: 2px solid black;
+    border-radius: 5px;
+    background-color: #41b54a;
+  }
+  
+  nav ul li a {
+    text-decoration: none;
+    font-size: 20px;
+    color: white;
+  }
+  
+  /* Welcome Section */
+  .welcome {
+    padding-left: 100px;
+    padding-right: 100px;
+    text-align: center;
+    margin: 20px 0;
+    font-size: larger;
+  }
+  
+  .image-placeholder {
+    width: 1366px;
+    height: 578px;
+    background-color: #ddd;
+    margin: 20px auto;
+  }
+  
+  /* Headquarter Section */
+  .headquarter {
+    text-align: center;
+    margin: 50px 0;
+  }
+  
+  .locations {
+    display: flex;
+    justify-content: center;
+    gap: 50px;
+  }
+  
+  .location {
+    text-align: center;
+  }
+  
+  .circle {
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    background-color: #ccc;
+    margin-bottom: 10px;
+  }
+  
+  #anggota {
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+  }
+  
+  /* Message Us Section */
+  .message {
+    padding: 50px;
+    background-color: #f9f9f9;
+  }
+  
+  form {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+  }
+  
+  form label {
+    font-weight: bold;
+  }
+  
+  form input,
+  form textarea {
+    padding: 10px;
+    border: 3px solid black;
+    border-radius: 5px;
+    width: 320px;
+  }
+  
+  form textarea {
+    resize: vertical;
+    height: 100px;
+  }
+  
+  
+  .form-container {
+    display: flex;
+    justify-content: space-between;
+  }
+  
+  .form-section {
+    flex: 1;
+    margin-right: 20px;
+  }
+  
+  .switch {
+    display: flex;
+    width: 50px;
+    height: 15px;
+    text-align: start;
+    white-space: nowrap;
+  }
+  .switch input[type="radio"] {
+    margin-left: 10px;
+    margin-right: 10px;
+    transform: scale(1);
+  }
+
+  button {
+    padding: 10px;
+    background-color: #41b54a;
+    color: black;
+    border: 3px solid black;
+    cursor: pointer;
+    width: 345px;
+    border-radius: 5px;
+  }
+  
+  .submitted-data {
+    flex: 1;
+    margin-left: 20px;
+    border: 3px solid black;
+    border-radius: 5px;
+    width: 400px;
+    height: 450px;
+  }
+  
+  /* Footer */
+  footer {
+    font-size: larger;
+    font-weight: bold;
+    text-align: right;
+    background-color: white;
+    position: relative;
+    bottom: 0;
+    width: 99%;
+  }
+  
+  hr {
+    height: 3px;
+    color: black;
+    background-color: black;
+  }
+
+  html {
+    scroll-behavior: smooth;
+  }
+  

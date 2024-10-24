@@ -1,0 +1,147 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>My Website</title>
+    <link rel="stylesheet" href="css/styles.css" />
+  </head>
+  <body>
+    <header>
+      <div class="logo">
+        <img
+          src="https://www.akun.biz/tips-bisnis/wp-content/uploads/2020/04/tokopedia-wishlist.jpg"
+        />
+      </div>
+      <nav>
+        <ul>
+          <li><a href="#welcome-text">Home</a></li>
+          <li><a href="#head">Headquarter</a></li>
+          <li><a href="#message">Message Us</a></li>
+        </ul>
+      </nav>
+    </header>
+
+    <hr />
+
+    <main>
+      <section class="welcome">
+        <h1 id="welcome-text">Hi, Welcome To Tokopedia</h1>
+        <p>
+          PT Tokopedia merupakan perusahaan teknologi Indonesia dengan misi pemerataan ekonomi secara digital di Indonesia.
+        </p>
+        </p>
+        Visi perusahaan adalah untuk menciptakan ekosistem di mana siapa pun bisa memulai dan menemukan apa pun.
+        </p>
+        <div class="image-placeholder">
+          <img
+            src="https://images.pexels.com/photos/29004795/pexels-photo-29004795/free-photo-of-pencakar-langit-modern-di-cakrawala-gothenburg.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2" width="1366" height="578"
+          />
+        </div>
+      </section>
+
+      <hr />
+
+      <section class="headquarter">
+        <h2 id="head">Our Headquarter</h2>
+        <div class="locations">
+          <div class="location">
+            <div class="circle">
+              <img
+                id="anggota"
+                src="https://media.licdn.com/dms/image/v2/D5635AQFkC2uNZREujQ/profile-framedphoto-shrink_400_400/profile-framedphoto-shrink_400_400/0/1728463854732?e=1730214000&v=beta&t=vDgxtfCDU6KJhhYij9IjNw_xXQYHv437_5bbt2vB3Po"
+              />
+            </div>
+            <p>Faridl</p>
+          </div>
+          <div class="location">
+            <div class="circle">
+              <img
+                id="anggota"
+                src="https://media.licdn.com/dms/image/v2/D5603AQFUaOPm3_td4w/profile-displayphoto-shrink_400_400/profile-displayphoto-shrink_400_400/0/1727968333476?e=1735171200&v=beta&t=-svJfrCc7ghOjFpnTa_2T06zJe5S2GpEQSyf-gKVhlI"
+              />
+            </div>
+            <p>Berk</p>
+          </div>
+          <div class="location">
+            <div class="circle">
+              <img
+                id="anggota"
+                src=" https://media.licdn.com/dms/image/v2/D5603AQEu7ZATnxLnRg/profile-displayphoto-shrink_400_400/profile-displayphoto-shrink_400_400/0/1719130564227?e=1735171200&v=beta&t=x19A-4E90QnH9YKrf9_U9JLqT8LIi0E26uA7wYNopNc"
+              />
+            </div>
+            <p>Lid</p>
+          </div>
+        </div>
+      </section>
+
+      <hr />
+
+      <section class="message">
+        <div class="form-container">
+          <!-- Form Section -->
+          <div class="form-section">
+            <h2>Message Us</h2>
+            <form id="messageForm">
+              <label for="name">Nama :</label>
+              <input
+                type="text"
+                id="name"
+                name="name"
+                placeholder="Nama"
+                required
+              />
+
+              <label for="dob">Tanggal Lahir :</label>
+              <input type="date" id="dob" name="dob" required />
+              <div class="switch">
+                <label>Jenis Kelamin :</label>
+                <input
+                  type="radio"
+                  id="male"
+                  name="gender"
+                  value="Laki-Laki"
+                  required
+                />
+                <label for="male">Laki-Laki</label>
+                <input
+                  type="radio"
+                  id="female"
+                  name="gender"
+                  value="Perempuan"
+                />
+                <label for="female">Perempuan</label>
+              </div>
+              <label for="message">Pesan :</label>
+              <textarea
+                id="message"
+                name="message"
+                placeholder="Pesan"
+                required
+              ></textarea>
+
+              <button type="submit">Submit</button>
+            </form>
+          </div>
+
+          <!-- Display Submitted Data Section -->
+          <div class="submitted-data">
+            <p id="current-time"></p>
+            <p id="submitted-name"></p>
+            <p id="submitted-dob"></p>
+            <p id="submitted-gender"></p>
+            <p id="submitted-message"></p>
+          </div>
+        </div>
+      </section>
+    </main>
+
+    <hr />
+
+    <footer>
+      <p>By Devry</p>
+    </footer>
+
+    <script src="js/script.js"></script>
+  </body>
+</html>
